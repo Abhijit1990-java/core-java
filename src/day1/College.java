@@ -1,6 +1,6 @@
 package day1;
 
-public class college {
+public class College {
     //States
     //Dimension/size of building
     //Location of Building
@@ -8,10 +8,10 @@ public class college {
     //Major of subject
     //Application Fee
     //Admission Fee
-    // Monthly fee
+    // No of Faculty
+    //Faculty wise fee
     //Total number of student
     //Total number of Staff
-    //Syllabus of major
     //Examination rules
     //Grading level
 }

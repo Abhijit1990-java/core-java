@@ -1,6 +1,6 @@
 package day1;
 
-public class cricket {
+public class Cricketmatch {
     //States
     //Cricket Pitch
     //Size of pitch
@@ -8,13 +8,13 @@ public class cricket {
     //Batsman
     //Bowler name
     //Umpire name
-    //Feilder name
+    //Feilders name
     //Wicket keeper
     //Boundary
     //Six
     //Wicket
     //Catch
     //LBW
-    //umpire sign
+    //umpire signs
     //Rules and regulation
 }

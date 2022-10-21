@@ -1,6 +1,6 @@
 package day1;
 
-public class apartment {
+public class Apartment {
     //states
     //Size
     //location
