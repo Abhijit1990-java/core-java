@@ -34,11 +34,11 @@ public class BankFunction1 {
         return p * r * t / 100;
 
     }
-static void deposit (double CalculatedInterest){
+
+    static void deposit(double CalculatedInterest) {
 
 
-
-}
+    }
 }
 
 

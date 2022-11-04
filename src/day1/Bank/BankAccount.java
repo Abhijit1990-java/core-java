@@ -53,26 +53,33 @@ public class BankAccount {
     }
 
     public void setBankBranchName(String bankBranchName) {
+
         this.bankBranchName = bankBranchName;
     }
 
     public String getBranchCode() {
+
         return branchCode;
     }
 
     public void setBranchCode(String branchCode) {
+
+
         this.branchCode = branchCode;
     }
 
     public String getAccountType() {
+
         return accountType;
     }
 
     public void setAccountType(String accountType) {
+
         this.accountType = accountType;
     }
 
     public Float getInterestRate() {
+
         return interestRate;
     }
 
@@ -81,14 +88,17 @@ public class BankAccount {
     }
 
     public String getCustomerInformation() {
+
         return customerInformation;
     }
 
     public void setCustomerInformation(String customerInformation) {
+
         this.customerInformation = customerInformation;
     }
 
     public String getSocialSecurityNumber() {
+
         return socialSecurityNumber;
     }
 
