@@ -39,14 +39,17 @@ public class BankAccount {
         this.accountHolderName = accountHolderName;
     }
 
-    public double getAccountBalance() {
-        return accountBalance;
-    }
+   // public double getAccountBalance() {
+    //    return accountBalance;
+    // }
 
-    public void setAccountBalance(double accountBalance) {
+   // public void setAccountBalance(double accountBalance) {
+      //  if (accountBalance < 0){
+          //  throw new RuntimeException("Account is negative");
+       // }
 
-        this.accountBalance = accountBalance;
-    }
+      //  this.accountBalance = accountBalance;
+   // }
 
     public String getBankBranchName() {
         return bankBranchName;
@@ -105,5 +108,27 @@ public class BankAccount {
     public void setSocialSecurityNumber(String socialSecurityNumber) {
         this.socialSecurityNumber = socialSecurityNumber;
     }
+    public void transferBalance(BankAccount fromAccount ,BankAccount toAccount,double amountToTransfer ){
+        //fromAccount.setAccountBalance(fromAccount.getAccountBalance() - amountToTransfer);
+        //toAccount.setAccountBalance(toAccount.getAccountBalance() + amountToTransfer);
+        fromAccount.accountBalance = fromAccount.accountBalance - amountToTransfer;
+        toAccount.accountBalance = toAccount.accountBalance + amountToTransfer;
+
+    }
+
+    public double getAccountBalance() {
+        return accountBalance;
+    }
+
+    public void setAccountBalance(double accountBalance) {
+        this.accountBalance = accountBalance;
+    }
+
+
 }
 
+
+
+//behavior
+//deposit
+//balance transfer
